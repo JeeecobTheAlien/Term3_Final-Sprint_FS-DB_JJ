@@ -5,3 +5,4 @@ The Website being developed is a Car Registry with realistic data for the cars a
 
 Been doing vehicle related assignments all semester and wanted to do something along the lines that I want to fully use in the future so I decided to try and create it for my final assignment as I've already had a similar version started as a personal project!
 
+And just an FYI to stop any confusion, The fellow partner on this under the alias "Alienbhys" is a my account linked with my personal Macbook.

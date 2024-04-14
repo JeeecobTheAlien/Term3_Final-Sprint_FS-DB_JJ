@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title>User Profile</title>
+    <style>
+      body {
+        font-family: Arial, sans-serif;
+        background-color: #fbef72;
+        padding: 20px;
+      }
+
+      .user-profile {
+        text-align: center;
+        margin-bottom: 20px;
+      }
+
+      .user-profile h2 {
+        color: #333;
+        margin-bottom: 20px;
+      }
+
+      .search-container {
+        max-width: 600px;
+        margin: 0 auto;
+        padding: 20px;
+        background-color: #fff;
+        border: 1px solid #f2edd1;
+        border-radius: 4px;
+      }
+
+      .search-container form {
+        margin-top: 20px;
+      }
+
+      .search-container label {
+        display: block;
+        margin-bottom: 10px;
+      }
+
+      .search-container input[type="text"],
+      .search-container select {
+        width: 100%;
+        padding: 10px;
+        border: 1px solid #ccc;
+        border-radius: 4px;
+      }
+
+      .search-container button[type="submit"] {
+        display: block;
+        margin-top: 10px;
+        padding: 10px;
+        background-color: #8b38f1;
+        color: #fff;
+        border: none;
+        border-radius: 4px;
+        cursor: pointer;
+      }
+
+      .search-container button[type="submit"]:hover {
+        background-color: #a14ee1;
+      }
+    </style>
+  </head>
+  <body>
+    <div class="user-profile">
+      <%= user && user.name ? user.name : "User" %>
+      <h2>
+        <%= user && user.name ? user.name + "'s Profile" : "User Profile" %>
+      </h2>
+    </div>
+
+    <div class="search-container">
+      <form action="/search" method="POST">
+        <label for="query">Search:</label>
+        <input type="text" id="query" name="query" required />
+
+        <label for="source">Data Source:</label>
+        <select id="source" name="source" required>
+          <option value="postgres">PostgreSQL</option>
+          <option value="mongo">MongoDB</option>
+          <option value="both">Both</option>
+        </select>
+
+        <button type="submit">Search</button>
+      </form>
+    </div>
+    <%- include('./partials/logout.ejs') %>
+  </body>
+</html>

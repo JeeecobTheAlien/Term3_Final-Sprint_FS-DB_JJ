@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Sign Out</title>
+    <style>
+      /* Styling for the sign-out form */
+      .signout-form {
+        max-width: 400px;
+        margin: 0 auto;
+        padding: 20px;
+        background-color: #fbef72;
+        border: 1px solid #2d2c2c;
+        border-radius: 4px;
+      }
+
+      .signout-form button[type="submit"] {
+        width: 100%;
+        padding: 10px;
+        background-color: #ce68fe;
+        color: white;
+        border: none;
+        border-radius: 4px;
+        cursor: pointer;
+      }
+
+      .signout-form button[type="submit"]:hover {
+        background-color: #992fe5;
+      }
+    </style>
+  </head>
+  <body>
+    <div class="signout-form">
+      <form action="/logout" method="POST">
+        <input type="hidden" name="_method" value="DELETE" />
+        <button type="submit">Sign Out</button>
+      </form>
+    </div>
+  </body>
+</html>

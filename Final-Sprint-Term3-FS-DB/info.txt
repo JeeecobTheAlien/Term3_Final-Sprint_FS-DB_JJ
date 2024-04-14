@@ -1,0 +1,16 @@
+The inclusion of the text file is just a continuation to the 
+4 question asked in the QAP' in my own personal view
+-------------------------------------------------------------
+
+1: How long did it take you - Well I've put in 8-12 hours per day starting Wednesday Apr, 3rd but Saturday April, 6th I spent 14 hours cleaning and troubleshooting and configuring code, 
+                              (Sunday no work was completed as that was a sleep all day, day) all working code was uploaded in my updates via github!
+
+2: What online resources did you use - Co-Pilot, Co-Pilot more Co-Pilot and a bit of GPT I also watched a few lectures regarding the Databases and Tokens while watching YouTube.
+
+3: Did you need to ask any friends for help - No I done this completely alone with help from an instructor
+
+4: Did you need to ask any instructors for help - Yes for an hour from Jordan
+
+5: Rate the level of difficulty - Well I understand why its supposed to be done in groups because it probably wouldnt have been so time consuming to do it on my own but, 
+                                  to do it on my own at least I didnt have to wait on anyone to upload a code to get working if needed so rating wise, (1 being easy - 10 being hard)
+                                  I'd say an 8, Would I do another sprint like this alone? Not under the same circumstances maybe a longer time period for a personal idea!
